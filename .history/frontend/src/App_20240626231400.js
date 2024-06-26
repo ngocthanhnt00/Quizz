@@ -2,7 +2,7 @@
 import Header from './components/Header/Header';
 import User from './components/User/User';
 import { Outlet, Link } from "react-router-dom";
-import "./App.scss"
+
 const App = () => {
   return (
     <div className="app-container">

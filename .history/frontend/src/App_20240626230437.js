@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
+import './App.css';
 import Header from './components/Header/Header';
 import User from './components/User/User';
-import { Outlet, Link } from "react-router-dom";
-import "./App.scss"
+import { Outlet, NavLink } from "react-router-dom";
+
 const App = () => {
   return (
     <div className="app-container">
@@ -21,10 +22,10 @@ const App = () => {
       <div>
         <div>
           <button>
-            <Link to={`/users`}>Go to user page</Link>
+            <NavLink to={`/users`}>Go to user page</NavLink>
           </button>
           <button>
-            <Link to={`/admin`}>Go to admin page</Link>
+            <NavLink to={`/admin`}>Go to admin page</NavLink>
           </button>
         </div>
       </div>

@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
+import './App.css';
 import Header from './components/Header/Header';
 import User from './components/User/User';
 import { Outlet, Link } from "react-router-dom";
-import "./App.scss"
+
 const App = () => {
   return (
     <div className="app-container">
@@ -21,10 +22,10 @@ const App = () => {
       <div>
         <div>
           <button>
-            <Link to={`/users`}>Go to user page</Link>
+            <Nav to={`/users`}>Go to user page</Nav>
           </button>
           <button>
-            <Link to={`/admin`}>Go to admin page</Link>
+            <Nav to={`/admin`}>Go to admin page</Nav>
           </button>
         </div>
       </div>
