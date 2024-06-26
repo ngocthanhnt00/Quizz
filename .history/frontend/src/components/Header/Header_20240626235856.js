@@ -24,13 +24,13 @@ function Header() {
                     </Nav>
                     <Nav>
                         <NavDropdown title="Settings" id="basic-nav-dropdown">
-                            <NavDropdown.Item >Login</NavDropdown.Item>
-                            <NavDropdown.Item >
+                            <NavDropdown.Item href="#action/3.1">Login</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">
                                 Profile
                             </NavDropdown.Item>
-                            <NavDropdown.Item >Change Password</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">Change Password</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item >
+                            <NavDropdown.Item href="#action/3.4">
                                 Logout
                             </NavDropdown.Item>
                         </NavDropdown>

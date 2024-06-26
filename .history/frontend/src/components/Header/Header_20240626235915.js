@@ -10,7 +10,7 @@ function Header() {
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
                 {/*<Navbar.Brand href="#home">ReactJS</Navbar.Brand>*/}
-                <NavLink to={`/`} className='navbar-brand'>Home</NavLink>
+                <NavLink to={`/`} className='navbar-brand'>ReactJS</NavLink>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
@@ -24,13 +24,13 @@ function Header() {
                     </Nav>
                     <Nav>
                         <NavDropdown title="Settings" id="basic-nav-dropdown">
-                            <NavDropdown.Item >Login</NavDropdown.Item>
-                            <NavDropdown.Item >
+                            <NavDropdown.Item href="#action/3.1">Login</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">
                                 Profile
                             </NavDropdown.Item>
-                            <NavDropdown.Item >Change Password</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">Change Password</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item >
+                            <NavDropdown.Item href="#action/3.4">
                                 Logout
                             </NavDropdown.Item>
                         </NavDropdown>

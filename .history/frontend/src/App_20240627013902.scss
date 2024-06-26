@@ -1,8 +1,6 @@
 .app-container {
     .header-container {
       position: fixed;
-      width: 100%;
-      z-index: 10;
       .navbar-nav {
         .nav-link {
             &.active {
@@ -10,9 +8,6 @@
             }
         }
       }
-    .navbar {
-      background-color: transparent !important;
-      box-shadow: rgba(149, 157, 165, 0.067) 0px 8px 24px;
-    }
+    
     }
 }
