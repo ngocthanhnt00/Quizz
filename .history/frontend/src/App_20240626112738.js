@@ -15,11 +15,11 @@ const App = () => {
 
         </div>
         <div className='app-content'>
-          {/*Cho biết component con được render ở đâu*/}
           <Outlet />
         </div>
       </div>
       <div>
+        test link
         <div>
           <button>
             <Link to={`/users`}>Go to user page</Link>

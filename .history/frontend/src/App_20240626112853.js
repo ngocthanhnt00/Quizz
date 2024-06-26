@@ -15,7 +15,6 @@ const App = () => {
 
         </div>
         <div className='app-content'>
-          {/*Cho biết component con được render ở đâu*/}
           <Outlet />
         </div>
       </div>

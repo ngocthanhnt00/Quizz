@@ -13,9 +13,9 @@ function Header() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Link to={`/`} className='nav-link'>Home</Link>
-                        <Link to={`/users`} className='nav-link'>User</Link>
-                        <Link to={`/admin`} className='nav-link'>Admin</Link>
+                        <Link to={`/`}>Home</Link>
+                        <Link to={`/users`}>User</Link>
+                        <Link to={`/admin`}>Admin</Link>
                         {/*<Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#link">User</Nav.Link>
                         <Nav.Link href="#link">Admin</Nav.Link>*/}
